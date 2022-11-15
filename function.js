@@ -2,27 +2,27 @@ var hargasewa = 0;
 var jumlahukuran = 0;
 
 function hitungharga() {
-  if (kategori.value == 'Honda Civic Type R 2020') {
+  if (kategori.value == 'Alfa') {
     hargasewa = 5000000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Honda Civic Hatchback 2019') {
+  } else if (kategori.value == 'Chryser') {
     hargasewa = 300000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Honda Civic Turbo 2019') {
+  } else if (kategori.value == 'Holden') {
     hargasewa = 450000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Honda Civic Type R 2022') {
+  } else if (kategori.value == 'Corolla') {
     hargasewa = 600000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Porsche 911 2022') {
+  } else if (kategori.value == 'Fiat') {
     hargasewa = 2000000;
     jumlahukuran = ukuran.value;
 
